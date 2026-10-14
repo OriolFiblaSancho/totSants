@@ -5,22 +5,22 @@
     "foto": "img/c1.jpg",
     "componentes": [
       {
-        "nombre": "Lilium L.A. Blancs",
+        "nombre": "Liliums L.A. Blancs",
         "cantidad": 6.0,
         "precio": 3.0
       },
       {
-        "nombre": "Roses Roig 60cm",
+        "nombre": "Roses Roig 60Cm",
         "cantidad": 7.0,
         "precio": 3.95
       },
       {
-        "nombre": "Fulla Monstera Mitjana",
+        "nombre": "Fulles Monstera Mitjana",
         "cantidad": 2.0,
         "precio": 1.5
       },
       {
-        "nombre": "Fulla Greentie",
+        "nombre": "Fulles Greentie",
         "cantidad": 2.0,
         "precio": 1.0
       },
@@ -36,7 +36,7 @@
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -67,13 +67,18 @@
         "precio": 1.0
       },
       {
+        "nombre": "Leder / Chico",
+        "cantidad": 8.0,
+        "precio": 1.5
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -83,6 +88,11 @@
     "nombre": "Centro 3",
     "foto": "img/c3.jpg",
     "componentes": [
+      {
+        "nombre": "Roses Roig 60Cm",
+        "cantidad": 20.0,
+        "precio": 3.95
+      },
       {
         "nombre": "Aranya Verda",
         "cantidad": 5.0,
@@ -96,11 +106,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -111,13 +121,33 @@
     "foto": "img/c4.jpg",
     "componentes": [
       {
+        "nombre": "Roses Roig De 60",
+        "cantidad": 17.0,
+        "precio": 3.95
+      },
+      {
+        "nombre": "Dilphinium Blanc",
+        "cantidad": 7.0,
+        "precio": 2.5
+      },
+      {
+        "nombre": "Palmó",
+        "cantidad": 4.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder /Chico",
+        "cantidad": 7.0,
+        "precio": 1.5
+      },
+      {
         "nombre": "Mano de obra",
-        "cantidad": 1,   
-        "precio": 7
+        "cantidad": 1,
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -133,6 +163,16 @@
         "precio": 2.5
       },
       {
+        "nombre": "Sterlitzies",
+        "cantidad": 3.0,
+        "precio": 3.8
+      },
+      {
+        "nombre": "Roses Roig 50Cm",
+        "cantidad": 10.0,
+        "precio": 3.6
+      },
+      {
         "nombre": "Aranya Blanca",
         "cantidad": 7.0,
         "precio": 3.5
@@ -143,13 +183,33 @@
         "precio": 3.5
       },
       {
+        "nombre": "F. Sala /",
+        "cantidad": 3.0,
+        "precio": 0.7
+      },
+      {
+        "nombre": "F. Chico",
+        "cantidad": 4.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "F. Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "F. Leder /",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -160,9 +220,24 @@
     "foto": "img/c6.jpg",
     "componentes": [
       {
+        "nombre": "Heliconia",
+        "cantidad": 1.0,
+        "precio": 10.0
+      },
+      {
         "nombre": "Sterlitzia",
         "cantidad": 4.0,
         "precio": 3.8
+      },
+      {
+        "nombre": "Anthurium X12",
+        "cantidad": 5.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Dendobrium Blanc",
+        "cantidad": 7.0,
+        "precio": 3.5
       },
       {
         "nombre": "Liatrix",
@@ -170,13 +245,28 @@
         "precio": 1.9
       },
       {
+        "nombre": "F. Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "F. Greentie",
+        "cantidad": 2.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "F. Chico 60",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -187,13 +277,33 @@
     "foto": "img/c7.jpg",
     "componentes": [
       {
+        "nombre": "Anthurium Roig X12",
+        "cantidad": 8.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Dendobrium Blanc",
+        "cantidad": 10.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "F. Monstera Mitjana",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "F. Leder /",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -203,6 +313,11 @@
     "nombre": "Centro 8-9",
     "foto": "img/c8.jpg",
     "componentes": [
+      {
+        "nombre": "Anthurium Roig X12",
+        "cantidad": 5.0,
+        "precio": 6.8
+      },
       {
         "nombre": "Aranya Verda",
         "cantidad": 5.0,
@@ -214,13 +329,28 @@
         "precio": 3.8
       },
       {
+        "nombre": "F. Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "F. Greentie",
+        "cantidad": 2.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "F. Leder /",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -231,9 +361,24 @@
     "foto": "img/c10.jpg",
     "componentes": [
       {
+        "nombre": "Anthurium Verd X12",
+        "cantidad": 3.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Lilium L.A. Taronja",
+        "cantidad": 5.0,
+        "precio": 3.0
+      },
+      {
         "nombre": "Clavells Blancs",
         "cantidad": 9.0,
         "precio": 1.0
+      },
+      {
+        "nombre": "Liatris",
+        "cantidad": 3.0,
+        "precio": 1.9
       },
       {
         "nombre": "Leder",
@@ -248,11 +393,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -263,9 +408,19 @@
     "foto": "img/c11.jpg",
     "componentes": [
       {
+        "nombre": "Anthurium Blanc X 12",
+        "cantidad": 4.0,
+        "precio": 6.8
+      },
+      {
         "nombre": "Aranya Verda",
         "cantidad": 5.0,
         "precio": 3.5
+      },
+      {
+        "nombre": "Lilium L.A. Groc",
+        "cantidad": 5.0,
+        "precio": 3.0
       },
       {
         "nombre": "Solidago",
@@ -273,13 +428,23 @@
         "precio": 0.8
       },
       {
+        "nombre": "Leder O Chico",
+        "cantidad": 8.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "F. Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -289,6 +454,11 @@
     "nombre": "Centro 12-13",
     "foto": "img/c12-c13.jpg",
     "componentes": [
+      {
+        "nombre": "Anthurium Roig X16",
+        "cantidad": 5.0,
+        "precio": 5.8
+      },
       {
         "nombre": "Liatrix",
         "cantidad": 4.0,
@@ -300,13 +470,33 @@
         "precio": 3.5
       },
       {
+        "nombre": "Dendobriums",
+        "cantidad": 5.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "F. Greentie",
+        "cantidad": 2.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "F. Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder O Chico",
+        "cantidad": 6.0,
+        "precio": 1.5
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -317,6 +507,11 @@
     "foto": "img/c14.jpg",
     "componentes": [
       {
+        "nombre": "Roses Roig De 60",
+        "cantidad": 15.0,
+        "precio": 3.95
+      },
+      {
         "nombre": "Gladiols Blancs",
         "cantidad": 3.0,
         "precio": 2.5
@@ -325,6 +520,11 @@
         "nombre": "Delphinium Blanc",
         "cantidad": 7.0,
         "precio": 2.5
+      },
+      {
+        "nombre": "Lilium Or. Rosa",
+        "cantidad": 5.0,
+        "precio": 5.9
       },
       {
         "nombre": "Greentie",
@@ -339,11 +539,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -353,6 +553,21 @@
     "nombre": "Centro 15",
     "foto": "img/c15.jpg",
     "componentes": [
+      {
+        "nombre": "Roses Roig De 50Cm",
+        "cantidad": 13.0,
+        "precio": 3.6
+      },
+      {
+        "nombre": "Lilium O. Rosa",
+        "cantidad": 4.0,
+        "precio": 5.9
+      },
+      {
+        "nombre": "Astrolemia Blanca",
+        "cantidad": 7.0,
+        "precio": 2.0
+      },
       {
         "nombre": "Greentie",
         "cantidad": 3.0,
@@ -366,11 +581,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -381,9 +596,29 @@
     "foto": "img/c16.jpg",
     "componentes": [
       {
+        "nombre": "Heliconia",
+        "cantidad": 2.0,
+        "precio": 10.0
+      },
+      {
+        "nombre": "Anthurium Blanc X 12",
+        "cantidad": 4.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Dendobrium Fucsia",
+        "cantidad": 6.0,
+        "precio": 3.5
+      },
+      {
         "nombre": "Greentie",
         "cantidad": 2.0,
         "precio": 1.0
+      },
+      {
+        "nombre": "F. Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
       },
       {
         "nombre": "Leder",
@@ -393,11 +628,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -408,18 +643,38 @@
     "foto": "img/c17.jpg",
     "componentes": [
       {
+        "nombre": "Gladiols Roig",
+        "cantidad": 5.0,
+        "precio": 2.5
+      },
+      {
         "nombre": "Protea Aranya Roig",
         "cantidad": 3.0,
         "precio": 3.5
       },
       {
+        "nombre": "Pim Pom",
+        "cantidad": 5.0,
+        "precio": 3.8
+      },
+      {
+        "nombre": "Anthurium Blanc/Verd X12",
+        "cantidad": 6.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Dendobrium Blanc O Verd",
+        "cantidad": 6.0,
+        "precio": 3.5
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -435,13 +690,43 @@
         "precio": 3.5
       },
       {
+        "nombre": "Dendobrium Blanc O Verd",
+        "cantidad": 6.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Unitats De Cymbidium",
+        "cantidad": 6.0,
+        "precio": 2.3
+      },
+      {
+        "nombre": "Picks Botelleta",
+        "cantidad": 6.0,
+        "precio": 0.6
+      },
+      {
+        "nombre": "F. Greentie",
+        "cantidad": 2.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Chico 60",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder O Chico",
+        "cantidad": 8.0,
+        "precio": 1.5
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -452,18 +737,43 @@
     "foto": "img/c19.jpg",
     "componentes": [
       {
+        "nombre": "Rosa Roig De 50Cm",
+        "cantidad": 5.0,
+        "precio": 3.6
+      },
+      {
+        "nombre": "Anthurium Roig X 12",
+        "cantidad": 5.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Liatris",
+        "cantidad": 5.0,
+        "precio": 1.9
+      },
+      {
         "nombre": "Sterlitzia",
         "cantidad": 3.0,
         "precio": 3.8
       },
       {
+        "nombre": "F. Monstera Mitjana",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder O Chico",
+        "cantidad": 8.0,
+        "precio": 1.5
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -474,9 +784,29 @@
     "foto": "img/c20.jpg",
     "componentes": [
       {
+        "nombre": "Anthurium Blanc X12",
+        "cantidad": 4.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Anthurium Verd X12",
+        "cantidad": 2.0,
+        "precio": 6.8
+      },
+      {
         "nombre": "Protea Aranya Groc",
         "cantidad": 10.0,
         "precio": 3.5
+      },
+      {
+        "nombre": "Dendobrium Blanc",
+        "cantidad": 4.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Picks Botelleta",
+        "cantidad": 4.0,
+        "precio": 0.6
       },
       {
         "nombre": "Greentie",
@@ -501,11 +831,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -516,6 +846,16 @@
     "foto": "img/c21.jpg",
     "componentes": [
       {
+        "nombre": "Anthurium Blanc/Crema X16",
+        "cantidad": 10.0,
+        "precio": 5.8
+      },
+      {
+        "nombre": "Dendobrium Fucsia",
+        "cantidad": 8.0,
+        "precio": 3.5
+      },
+      {
         "nombre": "Greentie",
         "cantidad": 1.0,
         "precio": 1.0
@@ -523,11 +863,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -538,9 +878,34 @@
     "foto": "img/c22.jpg",
     "componentes": [
       {
+        "nombre": "Anthuriums Blanc/Verd",
+        "cantidad": 5.0,
+        "precio": 5.8
+      },
+      {
+        "nombre": "Bola Groc",
+        "cantidad": 5.0,
+        "precio": 3.8
+      },
+      {
+        "nombre": "Astrolemia Blanca",
+        "cantidad": 5.0,
+        "precio": 2.0
+      },
+      {
         "nombre": "Solidago",
         "cantidad": 8.0,
         "precio": 0.8
+      },
+      {
+        "nombre": "Greetie",
+        "cantidad": 1.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Monstera Mit.",
+        "cantidad": 2.0,
+        "precio": 1.5
       },
       {
         "nombre": "Leder",
@@ -550,11 +915,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -565,13 +930,18 @@
     "foto": "img/c23.jpg",
     "componentes": [
       {
+        "nombre": "Anthurium Roig X12",
+        "cantidad": 12.0,
+        "precio": 6.8
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -582,9 +952,34 @@
     "foto": "img/c24.jpg",
     "componentes": [
       {
+        "nombre": "Heliconia",
+        "cantidad": 1.0,
+        "precio": 10.0
+      },
+      {
+        "nombre": "Anthurium Blanc X12",
+        "cantidad": 3.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Anthurium Roig X12",
+        "cantidad": 1.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Cumbidium Groc Partit De 80",
+        "cantidad": 1.0,
+        "precio": 27.0
+      },
+      {
         "nombre": "Protea Aranya Roig",
         "cantidad": 1.0,
         "precio": 3.5
+      },
+      {
+        "nombre": "Monstera Petita",
+        "cantidad": 3.0,
+        "precio": 1.5
       },
       {
         "nombre": "Leder",
@@ -592,13 +987,18 @@
         "precio": 0.5
       },
       {
+        "nombre": "F.Sala",
+        "cantidad": 4.0,
+        "precio": 0.7
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -609,18 +1009,38 @@
     "foto": "img/c25.jpg",
     "componentes": [
       {
+        "nombre": "Dendobrium Fucsia",
+        "cantidad": 3.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Dendobrium Blanc",
+        "cantidad": 5.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Monstera Petita",
+        "cantidad": 4.0,
+        "precio": 1.5
+      },
+      {
         "nombre": "Chico",
         "cantidad": 8.0,
         "precio": 1.5
       },
       {
+        "nombre": "Clavell Barbatum",
+        "cantidad": 4.0,
+        "precio": 1.0
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -630,6 +1050,21 @@
     "nombre": "Centro 26",
     "foto": "img/c26.jpg",
     "componentes": [
+      {
+        "nombre": "Liatris",
+        "cantidad": 6.0,
+        "precio": 1.9
+      },
+      {
+        "nombre": "Dendobrium Fucsia",
+        "cantidad": 3.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Astrolemia Rosa",
+        "cantidad": 5.0,
+        "precio": 2.0
+      },
       {
         "nombre": "Fulla Sala",
         "cantidad": 5.0,
@@ -643,11 +1078,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -657,6 +1092,21 @@
     "nombre": "Centro 27",
     "foto": "img/c27.jpg",
     "componentes": [
+      {
+        "nombre": "Roses Salmò De 60",
+        "cantidad": 9.0,
+        "precio": 3.95
+      },
+      {
+        "nombre": "Roses Blanc/Roig De 60",
+        "cantidad": 11.0,
+        "precio": 3.95
+      },
+      {
+        "nombre": "Monstera Petita",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
       {
         "nombre": "Leder",
         "cantidad": 9.0,
@@ -675,11 +1125,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -690,9 +1140,24 @@
     "foto": "img/c28.jpg",
     "componentes": [
       {
+        "nombre": "Gladiols Blancs",
+        "cantidad": 4.0,
+        "precio": 2.5
+      },
+      {
+        "nombre": "Dendobriums Blancs",
+        "cantidad": 9.0,
+        "precio": 3.5
+      },
+      {
         "nombre": "Roses Rosa De 60",
         "cantidad": 6.0,
         "precio": 3.95
+      },
+      {
+        "nombre": "Cales Grans",
+        "cantidad": 3.0,
+        "precio": 3.5
       },
       {
         "nombre": "Monstera Mitjana",
@@ -707,11 +1172,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -721,6 +1186,21 @@
     "nombre": "Centro 29",
     "foto": "img/c29.jpg",
     "componentes": [
+      {
+        "nombre": "Liliums L.A. Groc",
+        "cantidad": 6.0,
+        "precio": 3.0
+      },
+      {
+        "nombre": "Roses Roig De 60",
+        "cantidad": 8.0,
+        "precio": 3.95
+      },
+      {
+        "nombre": "Liatris",
+        "cantidad": 3.0,
+        "precio": 1.9
+      },
       {
         "nombre": "Monstera Mitjana",
         "cantidad": 3.0,
@@ -744,11 +1224,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -758,6 +1238,11 @@
     "nombre": "Centro 30",
     "foto": "img/c30.jpg",
     "componentes": [
+      {
+        "nombre": "Roses Roig De 60",
+        "cantidad": 24.0,
+        "precio": 3.95
+      },
       {
         "nombre": "Monstera Mitjana",
         "cantidad": 3.0,
@@ -776,11 +1261,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -801,14 +1286,39 @@
         "precio": 3.5
       },
       {
+        "nombre": "Anthuriums Roig X12",
+        "cantidad": 2.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Picks Botelleta",
+        "cantidad": 3.0,
+        "precio": 0.6
+      },
+      {
+        "nombre": "Dendobrium Blanc",
+        "cantidad": 5.0,
+        "precio": 3.5
+      },
+      {
         "nombre": "Monstera Mitjana",
         "cantidad": 2.0,
         "precio": 1.5
       },
       {
+        "nombre": "F. Sala",
+        "cantidad": 3.0,
+        "precio": 0.7
+      },
+      {
         "nombre": "Greentie",
         "cantidad": 1.0,
         "precio": 1.0
+      },
+      {
+        "nombre": "F. Chico",
+        "cantidad": 1.0,
+        "precio": 1.5
       },
       {
         "nombre": "Leder",
@@ -818,11 +1328,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -832,6 +1342,21 @@
     "nombre": "Centro 32",
     "foto": "img/c32.jpg",
     "componentes": [
+      {
+        "nombre": "Sterlitzies",
+        "cantidad": 5.0,
+        "precio": 3.8
+      },
+      {
+        "nombre": "Liatris",
+        "cantidad": 5.0,
+        "precio": 1.9
+      },
+      {
+        "nombre": "Picks Botelleta",
+        "cantidad": 5.0,
+        "precio": 0.6
+      },
       {
         "nombre": "Aranya Verda",
         "cantidad": 1.0,
@@ -855,11 +1380,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -870,8 +1395,18 @@
     "foto": "img/c33.jpg",
     "componentes": [
       {
+        "nombre": "Heliconia",
+        "cantidad": 2.0,
+        "precio": 10.0
+      },
+      {
         "nombre": "Aranya Verda",
         "cantidad": 2.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Dendobrium Taronja",
+        "cantidad": 5.0,
         "precio": 3.5
       },
       {
@@ -892,11 +1427,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -906,6 +1441,31 @@
     "nombre": "Centro 34",
     "foto": "img/c34.jpg",
     "componentes": [
+      {
+        "nombre": "Anthurium Blanc X12",
+        "cantidad": 7.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Roses Roig De 50Cm",
+        "cantidad": 12.0,
+        "precio": 3.6
+      },
+      {
+        "nombre": "Lilium Or. Rosa",
+        "cantidad": 3.0,
+        "precio": 5.9
+      },
+      {
+        "nombre": "Cymbidium Blanc/Roig De 80",
+        "cantidad": 1.0,
+        "precio": 27.0
+      },
+      {
+        "nombre": "Picks En Botelleta",
+        "cantidad": 15.0,
+        "precio": 0.6
+      },
       {
         "nombre": "Greentie",
         "cantidad": 1.0,
@@ -924,11 +1484,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -938,6 +1498,26 @@
     "nombre": "Centro 35",
     "foto": "img/c35.jpg",
     "componentes": [
+      {
+        "nombre": "Anthurium Roig X12",
+        "cantidad": 9.0,
+        "precio": 6.8
+      },
+      {
+        "nombre": "Cymbidiums De 60",
+        "cantidad": 2.0,
+        "precio": 2.3
+      },
+      {
+        "nombre": "Picks Botelleta",
+        "cantidad": 15.0,
+        "precio": 0.6
+      },
+      {
+        "nombre": "F. Monstera Mitjana",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
       {
         "nombre": "Leder",
         "cantidad": 8.0,
@@ -951,11 +1531,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -965,6 +1545,11 @@
     "nombre": "Centro 36",
     "foto": "img/c36.jpg",
     "componentes": [
+      {
+        "nombre": "Cymbidium Groc De 80",
+        "cantidad": 1.0,
+        "precio": 27.0
+      },
       {
         "nombre": "Aranya Verda",
         "cantidad": 5.0,
@@ -981,6 +1566,11 @@
         "precio": 0.5
       },
       {
+        "nombre": "Picks Botelleta",
+        "cantidad": 8.0,
+        "precio": 0.6
+      },
+      {
         "nombre": "Greentie",
         "cantidad": 2.0,
         "precio": 1.0
@@ -988,11 +1578,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -1002,6 +1592,16 @@
     "nombre": "Centro 37",
     "foto": "img/c37.jpg",
     "componentes": [
+      {
+        "nombre": "Roses Rosa De 50",
+        "cantidad": 17.0,
+        "precio": 3.6
+      },
+      {
+        "nombre": "Anthurium Blanc X16",
+        "cantidad": 6.0,
+        "precio": 5.8
+      },
       {
         "nombre": "Monstera Mitjana",
         "cantidad": 2.0,
@@ -1015,11 +1615,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -1029,6 +1629,11 @@
     "nombre": "Centro 38",
     "foto": "img/c38.jpg",
     "componentes": [
+      {
+        "nombre": "Aranya Verda",
+        "cantidad": 10.0,
+        "precio": 3.5
+      },
       {
         "nombre": "Monstera Mitjana",
         "cantidad": 3.0,
@@ -1042,11 +1647,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -1057,9 +1662,19 @@
     "foto": "img/c39.jpg",
     "componentes": [
       {
+        "nombre": "Liatris",
+        "cantidad": 5.0,
+        "precio": 1.9
+      },
+      {
         "nombre": "Aranya Verda",
         "cantidad": 4.0,
         "precio": 3.5
+      },
+      {
+        "nombre": "Lilium Or. Rosa",
+        "cantidad": 5.0,
+        "precio": 5.9
       },
       {
         "nombre": "Monstera",
@@ -1079,11 +1694,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -1094,9 +1709,29 @@
     "foto": "img/c40-c41.jpg",
     "componentes": [
       {
+        "nombre": "Heliconia",
+        "cantidad": 2.0,
+        "precio": 10.0
+      },
+      {
         "nombre": "Protea Aranya Roig",
         "cantidad": 5.0,
         "precio": 3.5
+      },
+      {
+        "nombre": "Dendobrium Blanc",
+        "cantidad": 9.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Plomes Pavo Real",
+        "cantidad": 3.0,
+        "precio": 1.8
+      },
+      {
+        "nombre": "Greentie Blac",
+        "cantidad": 2.0,
+        "precio": 1.0
       },
       {
         "nombre": "Monstera Mitjana",
@@ -1109,13 +1744,18 @@
         "precio": 0.5
       },
       {
+        "nombre": "F. Sala",
+        "cantidad": 2.0,
+        "precio": 0.7
+      },
+      {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
@@ -1125,6 +1765,11 @@
     "nombre": "Centro 42",
     "foto": "img/c42.jpeg",
     "componentes": [
+      {
+        "nombre": "Gladiols Blancs",
+        "cantidad": 3.0,
+        "precio": 2.5
+      },
       {
         "nombre": "Aranya Verda",
         "cantidad": 5.0,
@@ -1158,11 +1803,11 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
-        "cantidad": 1.5,
+        "cantidad": 1,
         "precio": 2
       }
     ]
