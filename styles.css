@@ -28,10 +28,18 @@ button { cursor: pointer; border: 0; border-radius: 8px; padding: .75rem 1rem; f
 .catalogue-intro p:not(.eyebrow) { max-width: 680px; margin: auto; color: #526159; font-size: 1.15rem; }
 .eyebrow { margin: 0; color: var(--green); font-size: .85rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .centres-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 1.5rem; }
-.centre-card { padding: 0; overflow: hidden; text-align: left; color: var(--green-dark); background: white; box-shadow: var(--shadow); transition: transform .18s ease, box-shadow .18s ease; }
-.centre-card:hover, .centre-card:focus-visible { transform: translateY(-4px); box-shadow: 0 10px 25px #173d3030; }
-.centre-card img { display: block; width: 100%; aspect-ratio: 1.35; object-fit: cover; }
-.centre-card strong { display: block; padding: 1.05rem 1.2rem 1.2rem; font-size: clamp(1.2rem, 2vw, 1.45rem); }
+.centre-card { overflow: hidden; color: var(--green-dark); background: white; box-shadow: var(--shadow); transition: transform .18s ease, box-shadow .18s ease; }
+.centre-card:hover { transform: translateY(-4px); box-shadow: 0 10px 25px #173d3030; }
+.centre-image-button, .centre-name-button { display: block; width: 100%; border-radius: 0; color: inherit; background: transparent; }
+.centre-image-button { height: auto; padding: 0; }
+.centre-image-button img { display: block; width: 100%; height: auto; aspect-ratio: 1.35; object-fit: cover; }
+.centre-name-button { padding: 1.05rem 1.2rem 1.2rem; text-align: left; font-size: clamp(1.2rem, 2vw, 1.45rem); }
+.centre-image-button:focus-visible, .centre-name-button:focus-visible { outline: 3px solid var(--green); outline-offset: -3px; }
+.image-modal { position: fixed; z-index: 100; inset: 0; display: grid; place-items: center; padding: 2rem; background: #1119; backdrop-filter: blur(8px); }
+.image-modal-content { position: relative; display: flex; align-items: center; justify-content: center; width: min(92vw, 1100px); height: min(92vh, 850px); }
+.image-modal img { display: block; max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+.image-modal-close { position: absolute; z-index: 1; top: -1rem; right: -1rem; width: 2.5rem; height: 2.5rem; padding: 0; color: white; background: var(--green-dark); border: 2px solid white; border-radius: 50%; font-size: 1.5rem; line-height: 1; }
+.image-modal-close:focus-visible { outline: 3px solid white; outline-offset: 2px; }
 .order-sheet { padding: 1.5rem; background: white; box-shadow: var(--shadow); }
 .order-heading { display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; border-bottom: 2px solid var(--green); padding-bottom: 1rem; }
 .order-heading h2 { margin: 0; }
@@ -71,7 +79,7 @@ textarea { min-height: 5rem; resize: vertical; }
 @media (max-width: 700px) {
   .catalogue-page { padding-right: 1rem; padding-left: 1rem; }
   .centres-grid { grid-template-columns: 1fr; gap: 1rem; }
-  .centre-card img { aspect-ratio: 1.45; }
+  .centre-image-button img { aspect-ratio: 1.45; }
 }
 @media print {
   @page { margin: 12mm; }

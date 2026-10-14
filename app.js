@@ -4,7 +4,8 @@ const state = {
   pedidoActual: null,
   vista: "centros",
   cargando: true,
-  error: ""
+  error: "",
+  imagenAmpliada: null
 };
 
 const money = new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR" });
@@ -66,10 +67,12 @@ function renderCentres() {
       <p class="eyebrow">Catàleg de Tots Sants</p>
       <h2>Tria un centre</h2>
     </div>
-    <div class="centres-grid">${state.centros.map(centre => `<button class="centre-card" data-centre="${centre.id}">
-      <img src="${escapeHtml(centre.foto)}" alt="${escapeHtml(centre.nombre)}" onerror="this.style.display='none'">
-      <strong>${escapeHtml(centre.nombre)}</strong>
-    </button>`).join("")}</div>
+    <div class="centres-grid">${state.centros.map(centre => `<article class="centre-card">
+      <button class="centre-image-button" data-image="${escapeHtml(centre.foto)}" data-image-title="${escapeHtml(centre.nombre)}" aria-label="Ampliar foto de ${escapeHtml(centre.nombre)}">
+        <img src="${escapeHtml(centre.foto)}" alt="${escapeHtml(centre.nombre)}" onerror="this.style.display='none'">
+      </button>
+      <button class="centre-name-button" data-centre="${centre.id}">${escapeHtml(centre.nombre)}</button>
+    </article>`).join("")}</div>
   </section>`;
 }
 
@@ -125,7 +128,13 @@ function render() {
   if (state.cargando) { app.innerHTML = `<div class="page"><p>Carregant el catàleg...</p></div>`; return; }
   app.innerHTML = `<header class="topbar"><h1>Comandes · Tots Sants</h1></header>
     ${state.error ? `<div class="page error">${escapeHtml(state.error)}</div>` : ""}
-    ${state.vista === "centros" ? renderCentres() : renderOrder(currentOrder())}`;
+    ${state.vista === "centros" ? renderCentres() : renderOrder(currentOrder())}
+    ${state.imagenAmpliada ? `<div class="image-modal" data-close-image role="dialog" aria-modal="true" aria-label="Foto ampliada">
+      <div class="image-modal-content">
+        <button class="image-modal-close" data-close-image aria-label="Tancar foto">×</button>
+        <img src="${escapeHtml(state.imagenAmpliada.src)}" alt="${escapeHtml(state.imagenAmpliada.title)}">
+      </div>
+    </div>` : ""}`;
 }
 
 function updateOrderField(target) {
@@ -155,6 +164,17 @@ function updateComponent(target) {
 }
 
 app.addEventListener("click", event => {
+  const image = event.target.closest("[data-image]");
+  if (image) {
+    state.imagenAmpliada = { src: image.dataset.image, title: image.dataset.imageTitle };
+    render();
+    return;
+  }
+  if (event.target.closest("[data-close-image]")) {
+    state.imagenAmpliada = null;
+    render();
+    return;
+  }
   const centre = event.target.closest("[data-centre]");
   if (centre) {
     const selected = state.centros.find(item => item.id === centre.dataset.centre);
@@ -170,6 +190,12 @@ app.addEventListener("click", event => {
   else if (action === "add-flower") {
     const flower = state.flores.find(item => item.id === document.querySelector("#flower-choice").value);
     if (flower) { currentOrder().componentes.push(componentFrom({ nombre: flower.nombre, cantidad: 1, precio: flower.precio })); render(); }
+  }
+});
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape" && state.imagenAmpliada) {
+    state.imagenAmpliada = null;
+    render();
   }
 });
 app.addEventListener("input", event => {
