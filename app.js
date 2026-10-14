@@ -31,7 +31,7 @@ function newOrder(centro) {
   }
   return {
     id: uid(), centroId: centro.id, centroNombre: centro.nombre, foto: centro.foto,
-    fecha: today(), cliente: "", direccion: "", telefono: "", jardinera: "", bucaroDato: "",
+    fecha: today(), cliente: "", direccion: "", telefono: "", jardinera: "",
     tipos: { jardinera: false, bucaro: false, flores: false, soporte: false },
     cantidades: { jardinera: 1, bucaro: 1 },
     formaMaceta: "",
@@ -79,7 +79,6 @@ function renderOrder(order) {
       ${field("Adreça del client", "text", "direccion", order.direccion)}
       ${field("Telèfon del client", "tel", "telefono", order.telefono)}
       ${field("Número de jardinera", "text", "jardinera", order.jardinera)}
-      ${order.tipos.bucaro ? field("Dada del búcaro", "text", "bucaroDato", order.bucaroDato, "Si escau") : ""}
       <div class="checks">${typeLabels.map(([key, label]) => `<label class="check"><input type="checkbox" data-order-field="tipo:${key}" ${order.tipos[key] ? "checked" : ""}><span class="screen-check">${label}</span><span class="print-check">${order.tipos[key] ? "☑" : "☐"} ${label}</span></label>${["jardinera", "bucaro"].includes(key) && order.tipos[key] ? `<input class="type-quantity" type="text" inputmode="decimal" aria-label="Quantitat de ${label}" data-order-field="cantidad:${key}" value="${order.cantidades[key]}">` : ""}`).join("")}</div>
       <div class="shape-field full"><label>Forma del test</label><div class="shape-options">${shapes.map(([key, label, image]) => `<label class="shape-option"><input type="radio" name="forma-maceta" value="${key}" data-order-field="formaMaceta" ${order.formaMaceta === key ? "checked" : ""}><img src="${image}" alt="${label}"><span class="screen-check">${label}</span><span class="print-check">${order.formaMaceta === key ? "☑" : "☐"} ${label}</span></label>`).join("")}</div></div>
       <div class="field full"><label for="notas">Observacions o notes</label><textarea id="notas" data-order-field="notas">${escapeHtml(order.notas)}</textarea></div>
