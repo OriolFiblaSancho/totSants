@@ -5,6 +5,26 @@
     "foto": "img/c1.jpg",
     "componentes": [
       {
+        "nombre": "Lilium L.A. Blancs",
+        "cantidad": 6.0,
+        "precio": 3.0
+      },
+      {
+        "nombre": "Roses Roig 60cm",
+        "cantidad": 7.0,
+        "precio": 3.95
+      },
+      {
+        "nombre": "Fulla Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Fulla Greentie",
+        "cantidad": 2.0,
+        "precio": 1.0
+      },
+      {
         "nombre": "Leder",
         "cantidad": 8.0,
         "precio": 0.5
@@ -12,7 +32,7 @@
       {
         "nombre": "Mano de obra",
         "cantidad": 1,
-        "precio": 7
+        "precio": 8
       },
       {
         "nombre": "Espuma",
