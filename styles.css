@@ -45,6 +45,13 @@ textarea { min-height: 5rem; resize: vertical; }
 .check { display: flex; align-items: center; gap: .4rem; font-weight: 700; }
 .check input { width: 1.2rem; min-height: 1.2rem; }
 .print-check { display: none; }
+.type-quantity { width: 4.5rem; min-height: 2.2rem; }
+.shape-field { display: flex; flex-direction: column; gap: .5rem; }
+.shape-options { display: grid; grid-template-columns: repeat(4, minmax(110px, 1fr)); gap: .75rem; }
+.shape-option { display: flex; flex-direction: column; align-items: center; gap: .35rem; padding: .5rem; border: 1px solid var(--line); border-radius: 8px; text-align: center; cursor: pointer; }
+.shape-option:has(input:checked) { border-color: var(--green); background: #eef5f0; }
+.shape-option input { width: 1.2rem; min-height: 1.2rem; }
+.shape-option img { width: 100%; max-width: 130px; height: 72px; object-fit: contain; }
 .components-wrap { overflow-x: auto; }
 .components { width: 100%; border-collapse: collapse; min-width: 680px; }
 .components th, .components td { border-bottom: 1px solid var(--line); padding: .55rem; text-align: left; vertical-align: middle; }
@@ -75,9 +82,15 @@ textarea { min-height: 5rem; resize: vertical; }
   .order-sheet input, .order-sheet textarea, .order-sheet select { border: 0; padding: 0; min-height: auto; appearance: none; }
   .order-sheet input[type="checkbox"], .screen-check { display: none; }
   .print-check { display: inline; }
+  .shape-option { border: 0; padding: 0; }
+  .shape-option input { display: none; }
+  .shape-option img { height: 45px; }
   .form-grid { gap: .35rem 1rem; margin: .8rem 0; }
   .components th, .components td { padding: .35rem; }
   .components th, .components td { border-bottom: 0; }
   .print-photo { display: block !important; width: 180px; max-height: 115px; object-fit: cover; }
 }
 .print-photo { display: none; }
+@media (max-width: 700px) {
+  .shape-options { grid-template-columns: repeat(2, 1fr); }
+}
