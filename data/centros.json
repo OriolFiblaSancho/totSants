@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "c1",
+    "nombre": "Centro 1",
+    "foto": "img/c1.jpg",
+    "componentes": [
+      {
+        "nombre": "Leder",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c2",
+    "nombre": "Centro 2",
+    "foto": "img/c2.jpg",
+    "componentes": [
+      {
+        "nombre": "Gladiols",
+        "cantidad": 8.0,
+        "precio": 2.5
+      },
+      {
+        "nombre": "Clavells",
+        "cantidad": 15.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 5.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Fornium",
+        "cantidad": 2.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c3",
+    "nombre": "Centro 3",
+    "foto": "img/c3.jpg",
+    "componentes": [
+      {
+        "nombre": "Aranya Verda",
+        "cantidad": 5.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 15.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c4",
+    "nombre": "Centro 4",
+    "foto": "img/c4.jpg",
+    "componentes": [
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,   
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c5",
+    "nombre": "Centro 5",
+    "foto": "img/c5.jpg",
+    "componentes": [
+      {
+        "nombre": "Gladiols Blancs",
+        "cantidad": 3.0,
+        "precio": 2.5
+      },
+      {
+        "nombre": "Aranya Blanca",
+        "cantidad": 7.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Protea Aranya Groc.",
+        "cantidad": 3.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c6",
+    "nombre": "Centro 6",
+    "foto": "img/c6.jpg",
+    "componentes": [
+      {
+        "nombre": "Sterlitzia",
+        "cantidad": 4.0,
+        "precio": 3.8
+      },
+      {
+        "nombre": "Liatrix",
+        "cantidad": 4.0,
+        "precio": 1.9
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c7",
+    "nombre": "Centro 7",
+    "foto": "img/c7.jpg",
+    "componentes": [
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c8-c9",
+    "nombre": "Centro 8-9",
+    "foto": "img/c8.jpg",
+    "componentes": [
+      {
+        "nombre": "Aranya Verda",
+        "cantidad": 5.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Sterlitzia",
+        "cantidad": 3.0,
+        "precio": 3.8
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c10",
+    "nombre": "Centro 10",
+    "foto": "img/c10.jpg",
+    "componentes": [
+      {
+        "nombre": "Clavells Blancs",
+        "cantidad": 9.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Monstera",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c11",
+    "nombre": "Centro 11",
+    "foto": "img/c11.jpg",
+    "componentes": [
+      {
+        "nombre": "Aranya Verda",
+        "cantidad": 5.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Solidago",
+        "cantidad": 6.0,
+        "precio": 0.8
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c12-c13",
+    "nombre": "Centro 12-13",
+    "foto": "img/c12-c13.jpg",
+    "componentes": [
+      {
+        "nombre": "Liatrix",
+        "cantidad": 4.0,
+        "precio": 1.9
+      },
+      {
+        "nombre": "Aranya Verda",
+        "cantidad": 2.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c14",
+    "nombre": "Centro 14",
+    "foto": "img/c14.jpg",
+    "componentes": [
+      {
+        "nombre": "Gladiols Blancs",
+        "cantidad": 3.0,
+        "precio": 2.5
+      },
+      {
+        "nombre": "Delphinium Blanc",
+        "cantidad": 7.0,
+        "precio": 2.5
+      },
+      {
+        "nombre": "Greentie",
+        "cantidad": 3.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 6.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c15",
+    "nombre": "Centro 15",
+    "foto": "img/c15.jpg",
+    "componentes": [
+      {
+        "nombre": "Greentie",
+        "cantidad": 3.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 7.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c16",
+    "nombre": "Centro 16",
+    "foto": "img/c16.jpg",
+    "componentes": [
+      {
+        "nombre": "Greentie",
+        "cantidad": 2.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c17",
+    "nombre": "Centro 17",
+    "foto": "img/c17.jpg",
+    "componentes": [
+      {
+        "nombre": "Protea Aranya Roig",
+        "cantidad": 3.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c18",
+    "nombre": "Centro 18",
+    "foto": "img/c18.jpg",
+    "componentes": [
+      {
+        "nombre": "Protea Aranya Roig",
+        "cantidad": 6.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c19",
+    "nombre": "Centro 19",
+    "foto": "img/c19.jpg",
+    "componentes": [
+      {
+        "nombre": "Sterlitzia",
+        "cantidad": 3.0,
+        "precio": 3.8
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c20",
+    "nombre": "Centro 20",
+    "foto": "img/c20.jpg",
+    "componentes": [
+      {
+        "nombre": "Protea Aranya Groc",
+        "cantidad": 10.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Greentie",
+        "cantidad": 1.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Chico",
+        "cantidad": 5.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 6.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c21",
+    "nombre": "Centro 21",
+    "foto": "img/c21.jpg",
+    "componentes": [
+      {
+        "nombre": "Greentie",
+        "cantidad": 1.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c22",
+    "nombre": "Centro 22",
+    "foto": "img/c22.jpg",
+    "componentes": [
+      {
+        "nombre": "Solidago",
+        "cantidad": 8.0,
+        "precio": 0.8
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 7.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c23",
+    "nombre": "Centro 23",
+    "foto": "img/c23.jpg",
+    "componentes": [
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c24",
+    "nombre": "Centro 24",
+    "foto": "img/c24.jpg",
+    "componentes": [
+      {
+        "nombre": "Protea Aranya Roig",
+        "cantidad": 1.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 6.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c25",
+    "nombre": "Centro 25",
+    "foto": "img/c25.jpg",
+    "componentes": [
+      {
+        "nombre": "Chico",
+        "cantidad": 8.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c26",
+    "nombre": "Centro 26",
+    "foto": "img/c26.jpg",
+    "componentes": [
+      {
+        "nombre": "Fulla Sala",
+        "cantidad": 5.0,
+        "precio": 0.7
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 9.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c27",
+    "nombre": "Centro 27",
+    "foto": "img/c27.jpg",
+    "componentes": [
+      {
+        "nombre": "Leder",
+        "cantidad": 9.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Fornium",
+        "cantidad": 3.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Chico",
+        "cantidad": 5.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c28",
+    "nombre": "Centro 28",
+    "foto": "img/c28.jpg",
+    "componentes": [
+      {
+        "nombre": "Roses Rosa De 60",
+        "cantidad": 6.0,
+        "precio": 3.95
+      },
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c29",
+    "nombre": "Centro 29",
+    "foto": "img/c29.jpg",
+    "componentes": [
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Solidago",
+        "cantidad": 6.0,
+        "precio": 0.8
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 7.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Chico",
+        "cantidad": 5.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c30",
+    "nombre": "Centro 30",
+    "foto": "img/c30.jpg",
+    "componentes": [
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Fulla Sala",
+        "cantidad": 5.0,
+        "precio": 0.7
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c31",
+    "nombre": "Centro 31",
+    "foto": "img/c31.jpg",
+    "componentes": [
+      {
+        "nombre": "Protea",
+        "cantidad": 2.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Protea Aranya Roig",
+        "cantidad": 2.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Greentie",
+        "cantidad": 1.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 5.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c32",
+    "nombre": "Centro 32",
+    "foto": "img/c32.jpg",
+    "componentes": [
+      {
+        "nombre": "Aranya Verda",
+        "cantidad": 1.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Solidago",
+        "cantidad": 3.0,
+        "precio": 0.8
+      },
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 6.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c33",
+    "nombre": "Centro 33",
+    "foto": "img/c33.jpg",
+    "componentes": [
+      {
+        "nombre": "Aranya Verda",
+        "cantidad": 2.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Chico Gran",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 6.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c34",
+    "nombre": "Centro 34",
+    "foto": "img/c34.jpg",
+    "componentes": [
+      {
+        "nombre": "Greentie",
+        "cantidad": 1.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Chico Gran",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 7.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c35",
+    "nombre": "Centro 35",
+    "foto": "img/c35.jpg",
+    "componentes": [
+      {
+        "nombre": "Leder",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Greentie",
+        "cantidad": 2.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c36",
+    "nombre": "Centro 36",
+    "foto": "img/c36.jpg",
+    "componentes": [
+      {
+        "nombre": "Aranya Verda",
+        "cantidad": 5.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Greentie",
+        "cantidad": 2.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c37",
+    "nombre": "Centro 37",
+    "foto": "img/c37.jpg",
+    "componentes": [
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 9.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c38",
+    "nombre": "Centro 38",
+    "foto": "img/c38.jpg",
+    "componentes": [
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 3.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 8.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c39",
+    "nombre": "Centro 39",
+    "foto": "img/c39.jpg",
+    "componentes": [
+      {
+        "nombre": "Aranya Verda",
+        "cantidad": 4.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Monstera",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Greentie",
+        "cantidad": 3.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 9.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c40-41",
+    "nombre": "Centro 40-41",
+    "foto": "img/c40-c41.jpg",
+    "componentes": [
+      {
+        "nombre": "Protea Aranya Roig",
+        "cantidad": 5.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Monstera Mitjana",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 6.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "c42",
+    "nombre": "Centro 42",
+    "foto": "img/c42.jpeg",
+    "componentes": [
+      {
+        "nombre": "Aranya Verda",
+        "cantidad": 5.0,
+        "precio": 3.5
+      },
+      {
+        "nombre": "Leucadendro",
+        "cantidad": 6.0,
+        "precio": 2.0
+      },
+      {
+        "nombre": "Monstera",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Greentie",
+        "cantidad": 2.0,
+        "precio": 1.0
+      },
+      {
+        "nombre": "Leder",
+        "cantidad": 7.0,
+        "precio": 0.5
+      },
+      {
+        "nombre": "Palmo",
+        "cantidad": 2.0,
+        "precio": 1.5
+      },
+      {
+        "nombre": "Mano de obra",
+        "cantidad": 1,
+        "precio": 7
+      },
+      {
+        "nombre": "Espuma",
+        "cantidad": 1.5,
+        "precio": 2
+      }
+    ]
+  }
+]

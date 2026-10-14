@@ -1,0 +1,262 @@
+[
+  {
+    "id": "amaranthus",
+    "nombre": "Amaranthus",
+    "precio": 1.5
+  },
+  {
+    "id": "alstrolemia",
+    "nombre": "Alstrolemia",
+    "precio": 2.0
+  },
+  {
+    "id": "anthurium-x16",
+    "nombre": "Anthurium X16",
+    "precio": 5.8
+  },
+  {
+    "id": "anthurium-x-12",
+    "nombre": "Anthurium X 12",
+    "precio": 6.8
+  },
+  {
+    "id": "aranya",
+    "nombre": "Aranya",
+    "precio": 3.5
+  },
+  {
+    "id": "bridi-micro",
+    "nombre": "Bridi Micro",
+    "precio": 6.5
+  },
+  {
+    "id": "bola-gran-groc",
+    "nombre": "Bola Gran Groc",
+    "precio": 3.8
+  },
+  {
+    "id": "botelletes-orquidea",
+    "nombre": "Botelletes Orquidea",
+    "precio": 0.6
+  },
+  {
+    "id": "botonet-verd",
+    "nombre": "Botonet Verd",
+    "precio": 2.0
+  },
+  {
+    "id": "clavells",
+    "nombre": "Clavells",
+    "precio": 1.0
+  },
+  {
+    "id": "cymbidium-solt",
+    "nombre": "Cymbidium Solt",
+    "precio": 2.3
+  },
+  {
+    "id": "cymbidium-70",
+    "nombre": "Cymbidium 70",
+    "precio": 27.0
+  },
+  {
+    "id": "cymbidium-50-mini",
+    "nombre": "Cymbidium 50 Mini",
+    "precio": 12.0
+  },
+  {
+    "id": "dendobrium-blc",
+    "nombre": "Dendobrium Blc",
+    "precio": 3.5
+  },
+  {
+    "id": "fulla-esparraguera-vera",
+    "nombre": "Fulla Esparraguera Vera",
+    "precio": 1.0
+  },
+  {
+    "id": "fornium",
+    "nombre": "Fornium",
+    "precio": 1.0
+  },
+  {
+    "id": "fulla-chico-gran",
+    "nombre": "Fulla Chico Gran",
+    "precio": 1.5
+  },
+  {
+    "id": "fulla-cheflera",
+    "nombre": "Fulla Cheflera",
+    "precio": 0.3
+  },
+  {
+    "id": "fulla-leder",
+    "nombre": "Fulla Leder",
+    "precio": 0.5
+  },
+  {
+    "id": "fulla-monstera-mitjana-30",
+    "nombre": "Fulla Monstera Mitjana 30",
+    "precio": 1.5
+  },
+  {
+    "id": "fulla-greentie-80",
+    "nombre": "Fulla Greentie 80",
+    "precio": 1.0
+  },
+  {
+    "id": "fulla-blacktie-80",
+    "nombre": "Fulla Blacktie 80",
+    "precio": 1.0
+  },
+  {
+    "id": "fulla-monstera-gran-40",
+    "nombre": "Fulla Monstera Gran 40",
+    "precio": 2.0
+  },
+  {
+    "id": "fulla-sala",
+    "nombre": "Fulla Sala",
+    "precio": 0.7
+  },
+  {
+    "id": "fulla-palmo",
+    "nombre": "Fulla Palmo",
+    "precio": 1.5
+  },
+  {
+    "id": "fulla-rovellini-80",
+    "nombre": "Fulla Rovellini 80",
+    "precio": 1.0
+  },
+  {
+    "id": "gladiols",
+    "nombre": "Gladiols",
+    "precio": 2.5
+  },
+  {
+    "id": "gloriosa",
+    "nombre": "Gloriosa",
+    "precio": 1.5
+  },
+  {
+    "id": "heliconia-gran-80",
+    "nombre": "Heliconia Gran 80",
+    "precio": 10.0
+  },
+  {
+    "id": "leucadendro-roig",
+    "nombre": "Leucadendro Roig",
+    "precio": 2.0
+  },
+  {
+    "id": "liatrix",
+    "nombre": "Liatrix",
+    "precio": 1.9
+  },
+  {
+    "id": "lilium-l-a-blnc",
+    "nombre": "Lilium L.A. Blnc",
+    "precio": 3.0
+  },
+  {
+    "id": "lilium-oriental",
+    "nombre": "Lilium Oriental",
+    "precio": 5.9
+  },
+  {
+    "id": "limonium",
+    "nombre": "Limonium",
+    "precio": 1.5
+  },
+  {
+    "id": "longuiflorum",
+    "nombre": "Longuiflorum",
+    "precio": 3.1
+  },
+  {
+    "id": "margarita-aranya-terreno-blc",
+    "nombre": "Margarita Aranya Terreno Blc.",
+    "precio": 2.5
+  },
+  {
+    "id": "margart-bacardi-blanc",
+    "nombre": "Margart. Bacardi Blanc",
+    "precio": 2.5
+  },
+  {
+    "id": "meyeri",
+    "nombre": "Meyeri",
+    "precio": 1.5
+  },
+  {
+    "id": "nebulosa",
+    "nombre": "Nebulosa",
+    "precio": 2.0
+  },
+  {
+    "id": "papirus",
+    "nombre": "Papirus",
+    "precio": 1.0
+  },
+  {
+    "id": "pim-pon-blc",
+    "nombre": "Pim-Pon Blc",
+    "precio": 3.8
+  },
+  {
+    "id": "pluma-pavo-real",
+    "nombre": "Pluma Pavo Real",
+    "precio": 1.8
+  },
+  {
+    "id": "protea-ara-a-groc",
+    "nombre": "Protea Araña Groc",
+    "precio": 3.5
+  },
+  {
+    "id": "rosa-de-60",
+    "nombre": "Rosa De 60",
+    "precio": 3.95
+  },
+  {
+    "id": "rosa-de-50",
+    "nombre": "Rosa De 50",
+    "precio": 3.6
+  },
+  {
+    "id": "rosa-freedom-70",
+    "nombre": "Rosa Freedom 70",
+    "precio": 4.5
+  },
+  {
+    "id": "delphinium",
+    "nombre": "Delphinium",
+    "precio": 2.5
+  },
+  {
+    "id": "safari-en-protea",
+    "nombre": "Safari En Protea",
+    "precio": 12.0
+  },
+  {
+    "id": "solidago",
+    "nombre": "Solidago",
+    "precio": 0.8
+  },
+  {
+    "id": "sterlitzia",
+    "nombre": "Sterlitzia",
+    "precio": 3.8
+  },
+  {
+    "id": "wanda-lila",
+    "nombre": "Wanda Lila",
+    "precio": 3.8
+  },
+  {
+    "id": "cala",
+    "nombre": "Cala",
+    "precio": 3.5
+  }
+]
