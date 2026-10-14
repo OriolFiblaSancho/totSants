@@ -39,7 +39,15 @@ function newOrder(centro) {
   };
 }
 function currentOrder() { return state.pedidoActual; }
-function orderTotal(order) { return order.componentes.reduce((sum, item) => sum + item.cantidad * item.precio, 0); }
+function orderMultiplier(order) {
+  const jardineras = order.tipos.jardinera ? order.cantidades.jardinera : 0;
+  const bucaros = order.tipos.bucaro ? order.cantidades.bucaro : 0;
+  return jardineras + bucaros || 1;
+}
+function componentQuantity(order, item) { return item.cantidad * orderMultiplier(order); }
+function orderTotal(order) {
+  return order.componentes.reduce((sum, item) => sum + componentQuantity(order, item) * item.precio, 0);
+}
 function button(label, className, action, extra = "") {
   return `<button class="${className}" data-action="${action}" ${extra}>${label}</button>`;
 }
@@ -86,9 +94,9 @@ function renderOrder(order) {
     <div class="components-wrap"><table class="components"><thead><tr><th>Material floral</th><th>Quantitat</th><th>Preu unitari</th><th>Preu total</th><th class="no-print">Treure</th></tr></thead>
       <tbody>${order.componentes.map((item, index) => `<tr>
         <td><input class="name-input" data-component="${index}" data-key="nombre" value="${escapeHtml(item.nombre)}"></td>
-        <td><input type="text" inputmode="decimal" data-component="${index}" data-key="cantidad" value="${item.cantidad}"></td>
+        <td><input type="text" inputmode="decimal" data-component="${index}" data-key="cantidad" value="${componentQuantity(order, item)}"></td>
         <td><input type="text" inputmode="decimal" data-component="${index}" data-key="precio" value="${item.precio}"></td>
-        <td class="subtotal">${money.format(item.cantidad * item.precio)}</td>
+        <td class="subtotal">${money.format(componentQuantity(order, item) * item.precio)}</td>
         <td class="no-print">${button("Treure", "danger remove-component", `remove:${index}`)}</td>
       </tr>`).join("")}</tbody></table></div>
     <div class="actions no-print add-component" style="margin-top:1rem">
@@ -138,9 +146,11 @@ function updateComponent(target) {
   const order = currentOrder();
   const item = order.componentes[Number(target.dataset.component)];
   if (!item) return;
-  item[target.dataset.key] = target.dataset.key === "nombre" ? target.value : parseNumber(target.value);
+  item[target.dataset.key] = target.dataset.key === "nombre"
+    ? target.value
+    : parseNumber(target.value) / (target.dataset.key === "cantidad" ? orderMultiplier(order) : 1);
   const row = target.closest("tr");
-  row.querySelector(".subtotal").textContent = money.format(item.cantidad * item.precio);
+  row.querySelector(".subtotal").textContent = money.format(componentQuantity(order, item) * item.precio);
   document.querySelector(".total-row span:last-child").textContent = money.format(orderTotal(order));
 }
 
@@ -166,7 +176,7 @@ app.addEventListener("input", event => {
   const target = event.target;
   if (target.dataset.orderField) {
     updateOrderField(target);
-    if (target.dataset.orderField?.startsWith("tipo:") || target.dataset.orderField === "formaMaceta") render();
+    if (target.dataset.orderField?.startsWith("tipo:") || target.dataset.orderField?.startsWith("cantidad:") || target.dataset.orderField === "formaMaceta") render();
   }
   if (target.dataset.component !== undefined) updateComponent(target);
 });
@@ -174,7 +184,7 @@ app.addEventListener("change", event => {
   const target = event.target;
   if (target.dataset.orderField) {
     updateOrderField(target);
-    if (target.dataset.orderField.startsWith("tipo:") || target.dataset.orderField === "formaMaceta") render();
+    if (target.dataset.orderField.startsWith("tipo:") || target.dataset.orderField.startsWith("cantidad:") || target.dataset.orderField === "formaMaceta") render();
   }
   if (target.dataset.component !== undefined) updateComponent(target);
 });
